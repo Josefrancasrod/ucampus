@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "735266441939",
+    "firebase_url": "https://ucampus-c0d7c.firebaseio.com",
+    "project_id": "ucampus-c0d7c",
+    "storage_bucket": "ucampus-c0d7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735266441939:android:99c375cac3ce801d",
+        "android_client_info": {
+          "package_name": "com.example.jose_.ucampus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735266441939-1kf3shh8nj8g2khgdijg0nqlvhpkg7ho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jose_.ucampus",
+            "certificate_hash": "2b3bfa4caacbb9ac673cadec8556f8bc54d2d34c"
+          }
+        },
+        {
+          "client_id": "735266441939-bmn1l5qiif05hqv3veci2a0vcu8j51kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN1kb2BDVdIvAwySDHqaPra4_2HZF3jtE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735266441939-bmn1l5qiif05hqv3veci2a0vcu8j51kk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

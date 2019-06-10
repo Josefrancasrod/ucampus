@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/coloGris"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+
+    >
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imagenCompletaEsc"
+            android:src="@drawable/img_idiomas"
+            android:layout_marginTop="10dp">
+
+
+        </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textoEdificioS"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Centro de lenguas extranjeras"
+android:textSize="20dp"
+        />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textoEncargado"
+        android:text="Encargado: "
+        android:textStyle="bold"
+        android:textSize="14dp"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textoEncargado"
+        android:id="@+id/textoEncargadoS"
+
+        android:text="asdasdasd">
+
+
+    </TextView>
+
+
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textoCordinador"
+            android:text="Cordinador: "
+            android:textStyle="bold"
+            android:textSize="14dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textoCordinador"
+            android:id="@+id/textoCordinadorS"
+
+            android:text="asdasdasd">
+
+
+        </TextView>
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:textSize="12dp"
+            android:id="@+id/btnOk"
+
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
